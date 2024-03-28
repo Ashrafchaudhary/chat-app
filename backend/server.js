@@ -10,8 +10,6 @@ const { app, server } = require("./socket/socket");
 
 const PORT = process.env.PORT || 4000;
 
-const __dirname = path.resolve();
-
 app.use(express.json());
 app.use(cookieParser());
 
